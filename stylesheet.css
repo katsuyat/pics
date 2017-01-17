@@ -1,0 +1,66 @@
+/*リセット用*/
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+header{
+  height:65px;
+  width: 100%;
+/*  background-color: #324345;*/
+  background-color: rgba(61, 62, 247,0.9);
+  border-bottom: 1px solid #dddddd;
+}
+
+.header-left{
+  float: left;
+  color: #FFFFFF;
+  padding: 21px 30px ;
+}
+
+.header-right{
+  float: right;
+  color: #FFFFFF;
+}
+
+.header-right li{
+  float:left;
+  border-left: 1px solid #dddddd;
+  padding: 21px 35px;
+
+}
+main{
+  width:1200px;
+  background-color: #FFFF00;
+}
+
+.sidebar {
+  width:300px;
+  background-color: #40F0F0;
+}
+.contents{
+  width:900px;
+  background-color: #FFFFFF;
+}
+
+footer {
+  height: 20px;
+  background-color: #FCFFC0;
+  padding: 20px 30px 10px;
+  clear: left;
+}
+
+.footer-left{
+  float:left;
+}
+
+.footer-right{
+  float:right;
+}
