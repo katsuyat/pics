@@ -7,6 +7,9 @@ form, input, div {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
 li {
   list-style: none;
 }
@@ -15,39 +18,62 @@ header{
   height:65px;
   width: 100%;
 /*  background-color: #324345;*/
-  background-color: rgba(61, 62, 247,0.9);
+  background-color: rgb(0, 0, 0);
   border-bottom: 1px solid #dddddd;
 }
 
 .header-left{
   float: left;
   color: #FFFFFF;
-  padding: 21px 30px ;
+  padding: 21px 30px;
+  font-weight: bold;
 }
 
 .header-right{
   float: right;
-  color: #FFFFFF;
+  background-color: rgba(255, 255, 255,0.3);
+  transition:all 0.5s;
 }
 
-.header-right li{
+.header-right:hover{
+  background-color: rgba(255, 255, 255,0.5);
+}
+
+.header-right a{
   float:left;
-  border-left: 1px solid #dddddd;
-  padding: 21px 35px;
-
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
 }
+
 main{
-  width:1200px;
+  width:100％;
   background-color: #FFFF00;
 }
-
-.sidebar {
-  width:300px;
-  background-color: #40F0F0;
+.container{
+  width: 100％;
+  padding: 15px;
+  margin: auto;
 }
-.contents{
-  width:900px;
-  background-color: #FFFFFF;
+
+.top-wrapper{
+  padding: 180px 0px 100px;
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1{
+  opacity: 0.7;
+  font-size: 36px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p{
+  opacity: 0.7;
+  font-size:16px;
 }
 
 footer {
