@@ -129,7 +129,7 @@ main{
 }
 
 footer {
-  height: 20px;
+  height: 30px;
   background-color: rgb(138, 136, 135);
   padding: 15px 30px 10px;
   clear: left;
@@ -141,5 +141,5 @@ footer {
 
 .footer-right{
   float:right;
-  font-size:8px;
+  font-size:4px;
 }
