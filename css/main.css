@@ -56,75 +56,30 @@ header{
 
 main{
   width:100％;
-  background-color: rgb(255, 255, 255);
+  height: auto;
+  background-color: rgb(237, 239, 244);
 }
 
-.top-wrapper{
-  height: 200px;
-  padding: 180px 0px 10px 0px;
-  background-image: url(../img/ODRAT80.jpg);
-  background-size: cover;
+.slides{
+  padding: 100px 10px 100px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-grow: 1;
+  flex-basis: auto;
 }
 
-.container{
-  width: 100％;
-  padding: 15px;
-  margin: auto;
-  background-color: rgba(255, 255, 255, 0.8);
+.slide{
+  margin: 10px;
+  border: 1px solid rgb(0, 0, 0);
   text-align: center;
-  color:#5f5d60;
+  color: blue;
+  background-color: rgb(247, 249, 254);
+
 }
 
-.container h1{
-  font-size: 36px;
-  letter-spacing: 5px;
-}
-
-.container p{
-  font-size:20px;
-}
-
-.usage-wrapper{
-  height: 500px;
-  padding: 0 0 80;
-  background-color: white;
-  text-align: center;
-}
-
-.heading{
-  padding: 40px 0px 50px 0px;
-  color:#5f5d60;
-}
-.heading h2{
-  font-weight:normal;
-  font-size: 30px;
-}
-
-.usage{
-  float: left;
-  width:33%;
-}
-
-.usage-icon{
-  position:relative;
-}
-
-.usage-icon p{
-  position: absolute;
-  top: 65px;
-  width:100%;
-  color:black;
-  font-style: bold;
-  font-weight: bold;
-}
-
-p.text-contents{
-  width:70%;
-  display:inline-block;
-  margin:20px;
-  font-size:16px;
-  color:rgb(102, 102, 94);
-
+img[src*=sample-img]{
+    width: 200px;
 }
 
 footer {

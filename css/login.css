@@ -1,10 +1,10 @@
 /* layout */
 body,p,form,input{margin: 0}
 #form{
-  width: 400px;
+  width: 300px;
   margin: 150px auto;
   padding: 20px;
-  border: 1px solid #555;
+  border: 1px solid rgba(116, 143, 158, 0.62);
   }
 
 form p{
@@ -21,7 +21,7 @@ form p{
 
 input[type="text"],
 input[type="password"] {
-  width: 300px;
+  width: 250px;
   padding: 4px;
   font-size: 14px;
   }
@@ -32,15 +32,14 @@ input[type="password"] {
 
 /* font */
 #form p{
-  /*color: #077685;*/
-  color: rgb(145, 134, 190);
+  color: rgb(158, 145, 214);
   font-weight: bold;
   }
 
 #form .form-title{
   font-family: Arial;
   font-size: 30px;
-  color: #4e80c2;
+  color: rgb(158, 145, 214);
 
   }
 
